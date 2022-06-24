@@ -1,0 +1,18 @@
+.textarea-container textarea {
+  margin-top: 2rem;
+  width: 300px;
+  height: 200px;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: var(--grey) 0px 8px 24px;
+}
+
+.textarea-container textarea:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 450px) {
+  .textarea-container textarea {
+    max-width: 70vw;
+  }
+}
